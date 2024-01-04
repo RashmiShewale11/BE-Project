@@ -1,0 +1,41 @@
+1
+Good afternoon maam myself rashmi shewale from group 22 and swaraj and madhura
+We are going to present our project i.e implementation of lightweight model for SER
+
+2
+So we implemented the system which processed voice data and classify emotions and also prioritise the request according to the emotions e.g. angry request would solve first then sad one and in this way.
+
+3
+So what is SER ? it is nothing but the finding the emotions of the speaker from his/her speech ….. There was many system available for detecting the emotion from speech which are developed using deep learning models but the result which are obtained by DL models can also be obtained by the ML models which we implemented in our project. We achieved the close accuracy, f-score, precision and recall compare to DL model. System is trained over the hand crafted features like pitch, harmonics, speech energy and pause. Also to increase the accuracy of the model we also tried to use the features like MFCC in feature extraction process. 
+
+In this project we implemented lightweight interpretable machine learning models namely, Random Forest, Gradient Boosting, Support Vector Machines, Naive-Bayes, and Logistic Regression, for speech emotion detection (audio).
+Also found out the ensemble model of best combination and gave best accuracy
+
+
+4
+
+Emotion plays a very important role in daily human interactions. Speech Emotion Recognition technology also makes invaluable contri-
+butions to organizations. Businesses which provide customer services benefit from the technology in order to improve self-service in a way that enriches customer experience. I would like to handover to swaraj
+
+
+
+12
+This slide shows the graph of accuracy, fscore, precision and recall of various ML algorithms like RF, xgboost, MLP, SVM, MNB, LR with handcrafted features which are signal mean, signal standard deviation, pitch, harmonics. These values do not include the MFCC and Chormagram features. The highest accuracy if of xgboost model is 0.559
+
+
+
+13
+This slide shows the graphs for seperate algorithm with 21 and 20 features … 21 features include 8 handcrafted features plus 13 mfcc features and for chromogram 10 plus the 8 handcrafted features. The model with highest accuracy with mfcc features is xgboost with 0.638 accuracy and for chromagram it is Random forest model with 0.582 accuracy.
+
+
+14
+This graph shows the ensemble of 3 ML models to see which model has the most accuracy, but only the handcrafted features are used excluding mfcc and chromagram features. The ensemble model of RF+XGB+MNB has the highest accuracy of 0.561.
+ 
+
+
+15
+Here the ensemble of 3 ML models is considered including the MFCC features. The highest accuracy among these models was of RF+XGB+MNB Model with the accuracy of 0.636
+
+
+
+
